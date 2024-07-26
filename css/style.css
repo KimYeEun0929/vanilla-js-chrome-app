@@ -1,3 +1,47 @@
 .hidden {
   display: none;
 }
+
+/* 전체 body 스타일 */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 시계와 날씨 스타일 */
+#clock {
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  font-size: 2em;
+}
+
+#weather {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 0.7em;
+}
+
+/* 로그인 폼, 인사말, 할 일 목록 중앙 정렬 */
+#login-form,
+#greeting,
+#todo-list {
+  text-align: center;
+}
+
+/* 할 일 목록 스타일 */
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* 인사말 스타일 */
+#greeting {
+  margin-top: 20px;
+}
